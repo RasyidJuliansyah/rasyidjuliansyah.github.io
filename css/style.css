@@ -27,7 +27,10 @@
 /*NAVBAR
 ====================================================================*/
 .navbar{
-    background: linear-gradient( to right, dodgerblue, teal);
+	background: linear-gradient( to right, dodgerblue, teal); /*Standar sytax*/
+	background: -webkit-linear-gradient(right, dodgerblue, teal); /*For Safari*/
+	background: -o-linear-gradient(right, dodgerblue,teal); /*For Opera*/
+	background: -moz-linear-gradient(right, dodgerblue, teal); /*For Firefox*/
     margin-top: -30px;
 }
 .sticky-top{
