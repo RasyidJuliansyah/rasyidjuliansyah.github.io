@@ -154,13 +154,26 @@ z-index: 1020;
 	font-size: 12pt;
 	line-height: 3rem;
 }
+.dwnld{
+	width: 400px;
+	
+	margin-left: 32%;
+	font-family: "metropolis", sans-serif;
+}
 
 @media only screen and (max-width:1024px) {
 	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
 	}
-}
+	.dwnld{
+			width: 350px;
+			margin-left: 27%;
+			font-family: "leaguespartan", sans-serif;
+		}
+	}
+
+
 @media only screen and (max-width:768px) {
 	
 	.intro-info .lead {
@@ -174,8 +187,13 @@ z-index: 1020;
 	.section-profile .list, .section-profile .skills{
 		margin-bottom: 4.2rem;
 	}
-	
+	.dwnld{
+		width: 300px;
+		margin-left: 31.5%;
+		font-family: "leaguespartan", sans-serif;
+	}
 }
+
 @media only screen and (max-width:600px) {
 	
 	.about-info{
@@ -183,11 +201,9 @@ z-index: 1020;
 	margin-left: 0;
 	padding: 0;
 }
-
 	.jumbotron p{
 		font-size: 10pt;
 	}
-		
 	.about-info img {
 		height: 90px;
 		width: 90px;
@@ -200,8 +216,34 @@ z-index: 1020;
 		text-align: center;
 		font-size: 10pt;
 	}
+	.dwnld{
+		width: 250px;
+		margin-left: 15%;
+		font-family: "leaguespartan", sans-serif;
+	}
+}
+@media only screen and (max-width: 414px) {
+	.dwnld{
+		width: 250px;
+		margin-left: 18%;
+		font-family: "leaguespartan", sans-serif;
+	}
 }
 
+@media only screen and (max-width: 375px) {
+	.dwnld{
+		width: 200px;
+		margin-left: 25%;
+		font-family: "leaguespartan", sans-serif;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.dwnld{
+		width: 180px;
+		margin-left: 20%;
+		font-family: "leaguespartan", sans-serif;
+	}
+}
 /*RESUME
 ====================================================================*/
 #resume{
@@ -277,7 +319,6 @@ z-index: 1020;
 	margin-left: 35%;
 	padding-left: 40px;
 }
-
 .timeline-content h4 {
 	position: relative;
 	padding-bottom: 10px;
