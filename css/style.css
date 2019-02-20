@@ -27,7 +27,7 @@
 /*NAVBAR
 ====================================================================*/
 .navbar{
-    background: linear-gradient( to right, red, blue);
+    background: linear-gradient( to right, dodgerblue, teal);
     margin-top: -30px;
 }
 .sticky-top{
