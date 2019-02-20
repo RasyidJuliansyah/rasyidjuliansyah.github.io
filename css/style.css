@@ -31,6 +31,7 @@
 	background: -webkit-linear-gradient(right, dodgerblue, teal); /*For Safari*/
 	background: -o-linear-gradient(right, dodgerblue,teal); /*For Opera*/
 	background: -moz-linear-gradient(right, dodgerblue, teal); /*For Firefox*/
+	background: -ms-linear-gradient(right, dodgerblue, teal); /*For Firefox*/
     margin-top: -30px;
 }
 .font{
