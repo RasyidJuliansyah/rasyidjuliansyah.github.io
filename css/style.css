@@ -33,6 +33,10 @@
 	background: -moz-linear-gradient(right, dodgerblue, teal); /*For Firefox*/
     margin-top: -30px;
 }
+.font{
+	font-family: "metropolis", sans-serif;
+	font-size: 11pt;
+}
 .sticky-top{
 position: -webkit-sticky;
 position: sticky;
